@@ -1,0 +1,10 @@
+author,model,threshold,precision,recall,f1,roc_auc,auprc
+Akash,LR (L1),0.5,0.03,0.14,0.05,0.914,0.01
+Akash,Random Forest (tuned),0.5,0.16,0.31,0.21,0.9134,0.17
+Parth,LR (No Penalty),0.5,0.0274,0.1768,0.0474,0.8941,0.0286
+Parth,XGBoost (default),0.5,0.0078,0.9246,0.0156,0.9676,0.1962
+Parth,XGBoost (tuned),0.93,0.0151,0.8039,0.0297,0.9676,0.1962
+Piyush,LR (ElasticNet),0.5,0.0014,0.2986,0.0027,0.5326,0.0232
+Piyush,LightGBM,0.5,0.0287,0.6754,0.0551,0.9683,0.2405
+Nagashri,LR (L2),0.857,0.0555,0.0531,0.0543,0.8985,0.0218
+Nagashri,MLP (128 64),0.494,0.0339,0.1787,0.0570,0.8868,0.0272
